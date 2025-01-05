@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    /* background-color: gray; */
+    /* background-image: url(https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    /* background-position: bottom; */
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.logo img{
+    border-radius: 20%;
+    margin-left: 10%;
+}
+
+.items{
+    display: flex;
+    gap: 30px;
+    margin-top: 0.8%;
+    margin-left: 28%;
+}
+
+.items >a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.items >a:hover{
+    text-decoration: underline;
+}
+
+.ri-arrow-down-s-line{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: -6%;
+    margin-top: 0.5%;
+}
+
+
+.button{
+    margin-right: 1%;
+    margin-top: 0.5%;
+    margin-left: -30%;
+}
+
+.sib{
+    padding: 10px 20px;
+    border-radius: 10%;
+    font-size: 15px;
+    border: 1px solid whitesmoke;
+    background-color: rgba(245, 245, 245, 0.39);
+    transition: 0.3s;
+}
+
+.sib:hover{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.ri-menu-fill{
+    display: none;
+}
+
+
+.box{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.box1{
+    height: 100%;
+    width: 50%;
+    /* background-color: orange; */
+}
+
+.box2{
+    height: 100%;
+    width: 50%;
+    /* background-color: rosybrown; */
+}
+
+
+h1{
+    font-size: montserrat;
+    color: whitesmoke;
+    font-size: 70px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+h2{
+    font-size: montserrat;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+p{
+    font-size: montserrat;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.rn{
+    padding: 8px 15px;
+    font-size: 18px;
+    border: 1px solid whitesmoke;
+    background-color: rgba(245, 245, 245, 0.39);
+    transition: 0.3s;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.rn:hover{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+/* -----------FORM--------------- */
+
+.form{
+    height: 100%;
+    width: 75%;
+    /* background-color: rgba(0, 0, 0, 0.295); */
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13%;
+}
+
+.formm{
+    height: 75%;
+    width: 75%;
+    background-color: #ffffff2a;
+    border-radius: 5%;
+}
+
+.p2h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.details{
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.details input{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.p2h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 19%;
+}
+
+.p2buttons{
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+.sb{
+    padding: 3px 8px;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color: rgba(245, 245, 245, 0.39);
+    border: 1px solid whitesmoke;
+}
+
+.rs{
+    padding: 3px 8px;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color: rgba(245, 245, 245, 0.39);
+    border: 1px solid whitesmoke;
+}
+
+.sb:hover{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.rs:hover{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: #1E3E62;
+    display: none;
+}
+
+
+
+
